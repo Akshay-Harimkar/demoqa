@@ -6,7 +6,7 @@ import java.util.List;
 
 public class sorting_elements_in_list {
     public static void main(String[] args) {
-        List<String> words = Arrays.asList("zkshay","Shivam","lokesh","pavan","vishal","zero","shubham");
+        List<String> words = Arrays.asList("Akshay","Shivam","lokesh","pavan","vishal","zero","shubham");
 
         Collections.sort(words);
 

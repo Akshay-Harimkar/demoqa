@@ -13,14 +13,13 @@ public class AppTest
     /**
      * Rigorous Test :-)
      */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    private String akshay;
+
+    public String getAkshay() {
+        return akshay;
     }
-    @Test
-    public void shouldAnswerWithFalse()
-    {
-        assertFalse( false );
+
+    public void setAkshay(String akshay) {
+        this.akshay = akshay;
     }
 }

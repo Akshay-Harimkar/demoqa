@@ -26,6 +26,8 @@ public class sort_even_odd {
 
     Collections.sort(evenNumbers);
     Collections.sort(oddNumbers);
+    System.out.println(evenNumbers);
+    System.out.println(oddNumbers);
 
 
     List<Integer> output = new ArrayList<>();

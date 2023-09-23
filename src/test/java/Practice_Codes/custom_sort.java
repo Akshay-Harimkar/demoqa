@@ -43,10 +43,12 @@ public class custom_sort {
         people.add(new Person("random", 30));
 
         people.sort(Comparator.comparing(Person::getAge));
-        System.out.println("Sort by Age "+people);
+        System.out.println("Sort by Age " + people);
 
         people.sort(Comparator.comparing(Person::getName));
-        System.out.println("Sorting by Name :"+ people);
+        System.out.println("Sorting by Name :" + people);
+
+        
 
 
 

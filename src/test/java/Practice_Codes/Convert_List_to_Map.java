@@ -32,6 +32,7 @@ public class Convert_List_to_Map {
     students.add(new Students("Shivam", 001));
     students.add(new Students("Akshay", 002));
     students.add(new Students("random", 003));
+    students.add(new Students("harsh",004));
 
     Map<String, Integer> studentsMap = new HashMap<>();
     for(Students student : students){
